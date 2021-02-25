@@ -1,0 +1,10 @@
+Testes Automatizados
+
+
+1-Testes Unitários - > testar uma função
+
+2-Testes de Integração -> teste da funcionalidade completa 
+->routes -> controller -> repository
+<- repository <- controller <- response
+
+3- Ponto a Ponta (E2E) -> testes em frontend
