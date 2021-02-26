@@ -17,8 +17,6 @@ Dia 2 - Banco de dados
 
 
 
-
-
 Dia 3 - Testando a nossa aplicação
 
 - [x] Refatorar nossa controller
@@ -32,6 +30,13 @@ Dia 3 - Testando a nossa aplicação
 
 
 Dia 4 - Envio de e-mail
+
+- [x] Criar migration de surveysUsers
+- [x] Criar model
+- [x] Criar repository
+- [x] Criar controller
+- [x] Criar serviço de email
+- [ ] Enviar E-mail
 
 
 
