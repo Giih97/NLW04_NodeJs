@@ -24,7 +24,7 @@ class SendMailService {
 
         async execute(to: string, subject: string, variables:object, body: string) {
 
-            const templateFileContent = fs.readFileSync(path).toString("utf-8")
+            const templateFileContent = fs.readFileSync(path).toString("utf8")
 
             const mailTemplateParse = handlebars.compile(templateFileContent)
 
@@ -33,7 +33,7 @@ class SendMailService {
            const message = await this.client.sendMail({
                 to,
                 subject,
-                html: body,
+                html,
                 from:"NPS <noreplay@nps.com.br>"
             })
 

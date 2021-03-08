@@ -10,26 +10,26 @@ export class CreateSurveysUsers1614270288756 implements MigrationInterface {
                     {
                         name: "id",
                         type: "uuid",
-                        isPrimary: true
+                        isPrimary: true,
                     },
                     {
                         name: "user_id",
-                        type: "uuid"
+                        type: "uuid",
                     },
                     {
                         name: "survey_id",
-                        type: "uuid"
+                        type: "uuid",
 
                     },
                     {
                         name: "value",
                         type: "number",
-                        isNullable: true
+                        isNullable: true,
                     },
                     {
                         name: "created_at",
                         type: "timestamp",
-                        default: "now()"
+                        default: "now()",
                     },
                 ],
                 foreignKeys: [
@@ -39,7 +39,7 @@ export class CreateSurveysUsers1614270288756 implements MigrationInterface {
                         referencedColumnNames: ["id"],
                         columnNames: ["user_id"],
                         onDelete: "CASCADE",
-                        onUpdate: "CASCADE"
+                        onUpdate: "CASCADE",
 
                     },
                     {
@@ -48,7 +48,7 @@ export class CreateSurveysUsers1614270288756 implements MigrationInterface {
                         referencedColumnNames: ["id"],
                         columnNames: ["survey_id"],
                         onDelete: "CASCADE",
-                        onUpdate: "CASCADE"
+                        onUpdate: "CASCADE",
 
                     }
 
