@@ -45,9 +45,10 @@ Dia 5 - Finalizando nossa api com validações
 - [x]  Refatorar o SendMailController
 
 - [x] Criar controller de resposta de usuário
-  Validar se o usuário existe
-   Alterar a nota da resposta
-   Criar controller com cálculo de nps
+  - [x] Validar se o usuário existe
+  - [x] Alterar a nota da resposta
+  - [x] Criar controller com cálculo de nps
+  
 - [x] Criar validações
 
 
